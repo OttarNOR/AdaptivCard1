@@ -1,0 +1,861 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Endelig Mandag!",
+            "wrap": true,
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "color": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Dato her",
+            "wrap": true,
+            "weight": "Default"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.ShowCard",
+                            "title": "Posisjonsliste",
+                            "card": {
+                                "type": "AdaptiveCard",
+                                "body": [
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "Unit",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "Uglen",
+                                                        "wrap": true,
+                                                        "id": "ID_Uglen",
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC Uglen",
+                                                        "wrap": true,
+                                                        "id": "ID_TCUglen"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA Uglen",
+                                                        "wrap": true,
+                                                        "id": "ID_JLAUglen"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM Uglen",
+                                                        "wrap": true,
+                                                        "id": "ID_OLMUglen"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumdSetUglen"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 7",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 7",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC7"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 7",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA7"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 7",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM7"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_UR7ColumnSet"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 8",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 8",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC8"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 8",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA8"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 8",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM8"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet8"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 93",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 93",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC93"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 93",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA93"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 93",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM93"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet93"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 95",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 95",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC95"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 95",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA95"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 95",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM95"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet95"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 96",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 96",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC96"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 96",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA96"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 96",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM96"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet96"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 97",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 97",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC97"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 97",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA97"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 97",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM97"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet97"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 98",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 98",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC98"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 98",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA98"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 98",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM98"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet98"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 99",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 99",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC99"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 99",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA99"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 99",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM99"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet99"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 141",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 141",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC141"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 141",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA141"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 141",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM141"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet141"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 171",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 171",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC171"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 171",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA171"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 171",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM171"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet171"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 901",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 901",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC901"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 901",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_JLA901"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 901",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM901"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet901"
+                                    },
+                                    {
+                                        "type": "ColumnSet",
+                                        "columns": [
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "UR 902",
+                                                        "wrap": true,
+                                                        "weight": "Bolder"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "TC 902",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_TC902"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "JLA 902",
+                                                        "wrap": true,
+                                                        "id": "ID_JLA902",
+                                                        "horizontalAlignment": "Center"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "Column",
+                                                "width": "stretch",
+                                                "items": [
+                                                    {
+                                                        "type": "TextBlock",
+                                                        "text": "OLM 902",
+                                                        "wrap": true,
+                                                        "horizontalAlignment": "Center",
+                                                        "id": "ID_OLM902"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "id": "ID_ColumnSet902"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Comments:",
+                                        "wrap": true,
+                                        "weight": "Bolder"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Tommy: ",
+                                        "wrap": true,
+                                        "id": "ID_PosCom_TC"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "John Lennard:",
+                                        "wrap": true,
+                                        "id": "ID_PosCom_JLA"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Ottar:",
+                                        "wrap": true,
+                                        "id": "ID_PosCom_OLM"
+                                    }
+                                ]
+                            },
+                            "id": "ID_Pos"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
